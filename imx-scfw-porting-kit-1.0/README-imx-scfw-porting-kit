@@ -1,0 +1,14 @@
+i.MX 8 System Controller Firmware (SCFW) porting kit README
+
+This readme describes how to use the package to porting SCFW to customer's i.MX8 boards.
+
+- This self-extracted package "imx-scfw-porting-kit-<ver>.bin" contains the SCFW porting (aka object, export) packages and documents.
+
+- Use the commands followed to extract the package.
+  $ chmod a+x ./imx-scfw-porting-kit-<ver>.bin
+  $ sh ./imx-scfw-porting-kit-<ver>.bin
+
+- The package is extracted to the folder "imx-scfw-porting-kit-<ver>". It contains:
+  * File COPYING -- LA_OPT_BASE_LICENSE
+  * Folder "src" -- contains the SCFW porting (aka object, export) packages.
+  * Folder "doc" -- contains the SCFW porting documents in html and pdf formats.
